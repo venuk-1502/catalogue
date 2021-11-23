@@ -1,0 +1,9 @@
+variable "ENV" {}
+variable "COMPONENT" {}
+variable "SPOT_INSTANCE_COUNT" {}
+variable "OD_INSTANCE_COUNT" {}
+variable "IS_PRIVATE" {}
+variable "PRIORITY" {}
+variable "PORT" {}
+variable "INSTANCE_TYPE" {}
+variable "bucket" {}

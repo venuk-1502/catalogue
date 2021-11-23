@@ -1,0 +1,9 @@
+ENV                    = "dev"
+COMPONENT              = "catalogue"
+SPOT_INSTANCE_COUNT    = 1
+OD_INSTANCE_COUNT      = 0
+IS_PRIVATE             = true
+PRIORITY               = 101
+PORT                   = 80
+INSTANCE_TYPE          = "t2.micro"
+bucket                 = "tfstate-devopsvenu"
