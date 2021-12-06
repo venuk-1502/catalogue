@@ -8,6 +8,9 @@ module "application" {
   PRIORITY               = var.PRIORITY
   PORT                   = var.PORT
   INSTANCE_TYPE          = var.INSTANCE_TYPE
+  APP_VERSION            = var.APP_VERSION
+  NEXUS_USER             = var.NEXUS_USER
+  NEXUS_PASS             = var.NEXUS_PASS
 }
 
 #output "INSTANCE_IDS" {
