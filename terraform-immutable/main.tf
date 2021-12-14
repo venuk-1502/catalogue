@@ -1,4 +1,4 @@
-module "application" {
+module "catalogue" {
   source = "git::https://github.com/venuk-1502/devops.git//terraform-immutable/app-module"
   ENV                    = var.ENV
   COMPONENT              = var.COMPONENT
